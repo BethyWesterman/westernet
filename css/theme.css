@@ -1,0 +1,63 @@
+ 
+h1 {
+     background: repeating-radial-gradient(circle, grey, black 10px,  #003399 10px, #B2B2CC  20px);
+     color: darkmagenta;
+     font-family: sans-serif;
+     text-shadow: 10px 10px 10px #000000;
+     border: 1px solid white;
+ }
+ body {
+     background-color: midnightblue
+
+ }
+ ol {
+     color: darkmagenta;
+     font-family: "Lucida Console", Times, monospace;
+ }
+ nav {
+      
+     border: 1px solid black;
+     width: 100%;
+     background-color:slategray; 
+ }
+ nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     text-align: center;
+ }
+ nav ul li {
+     display: inline-block;
+     margin: 0
+ }
+ nav ul li a {
+     padding: 15px 30px;
+     display: block;
+     color: #000000;
+     text-decoration: none;
+     font-family: fantasy, helvetica, sans-serif;
+     transition: all .5s;
+ }
+ nav ul li a:hover {
+     background-color:#001F94 ;
+     transition: all .5s;
+ }
+
+
+.active {
+  background-color: darkmagenta;
+    
+      }
+
+
+
+.hiddenlinks {
+    color: white;
+    text-decoration-color: white;
+    
+}
+
+a{ 
+color: white;}
+
